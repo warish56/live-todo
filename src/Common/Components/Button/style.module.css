@@ -1,0 +1,54 @@
+.btn_cont {
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  transition: box-shadow ease 0.3s;
+}
+
+.shadow {
+  box-shadow: var(--shadow-medium);
+}
+
+.block {
+  width: 100%;
+  min-height: 40px;
+}
+
+.btn_primary {
+  background-color: var(--btn-primary-color);
+  color: white;
+}
+
+.btn_secondary {
+  background-color: var(--btn-secondary-color);
+}
+
+.add_btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  background-color: #f6f6f6;
+  border-radius: 9px;
+  box-shadow: var(--shadow-medium);
+}
+
+.icon_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.icon_btn:hover {
+  background-color: var(--gray-light);
+}

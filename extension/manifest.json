@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Toodle",
+  "version": "3.0",
+
+  "description": "Create and organize todos.",
+
+  "icons": {
+    "48": "./icon.png"
+  },
+
+  "permissions": ["webRequest", "webRequestBlocking", "*://*/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["./index.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": ["ProjectConstants/index.js"]
+}

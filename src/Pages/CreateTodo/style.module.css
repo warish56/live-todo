@@ -1,0 +1,50 @@
+.item_cont {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 8px;
+  background-color: var(--gray-light);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.item_check {
+  margin-left: auto;
+}
+
+.inp {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.name_inp {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.icon_grp {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon_btn {
+  width: 30px;
+  height: 30px;
+}
+
+.icon_red > i {
+  color: #b02a37;
+}
+
+.list_cont {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.save_btn {
+  margin-top: 30px;
+}
