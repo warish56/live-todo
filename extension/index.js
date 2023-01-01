@@ -61,4 +61,7 @@ async function loadExtenion() {
   }
 }
 
-loadExtenion();
+// adding delay so that fist the background worker start its job first
+setTimeout(() => {
+  loadExtenion();
+}, 2000);
